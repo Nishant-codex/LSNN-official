@@ -340,7 +340,7 @@ class LIF(Cell):
             return new_v, new_z
 
 
-ALIFStateTuple = namedtuple('ALIFState', (
+ALIFStateTuple = namedtuple('ALIFStateTuple', (
     'z',
     'v',
     'b',
